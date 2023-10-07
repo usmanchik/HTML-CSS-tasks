@@ -83,7 +83,7 @@ a{
 }
 
 
-.prototype-main__right-block{
+.prototype-main__content-block{
     margin-top: 198.5px;
 }
 
@@ -128,7 +128,7 @@ a{
 }
 
 .prototype-whatisit__item{
-    max-width: 360px;
+    width: 360px;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -324,19 +324,15 @@ a{
 }
 
 .footer-panel{
+    display: flex;
     background-color: #715B4B;
     min-height: 380px;
     color: #F6F6F6;
-    gap: 20px;
+    gap: 76px;
 }
 
-.footer-panel-links{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-	flex-wrap:wrap; 
-}
-
-.footer-panel-links__item{
+.footer-panel__links{
+    display:flex;
+    flex-direction: column;
     
 }
