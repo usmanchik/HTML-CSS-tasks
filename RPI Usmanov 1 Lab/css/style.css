@@ -336,3 +336,17 @@ a{
     flex-direction: column;
     
 }
+
+
+/* aboutUs */
+
+.aboutUs__main-title{
+    text-align: center;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
