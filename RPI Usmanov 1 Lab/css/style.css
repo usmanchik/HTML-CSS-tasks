@@ -438,3 +438,183 @@ a{
     line-height: 150%;
     border: none;
 }
+
+/* customFurniture */
+
+.customFurniture-main-window{
+    width: 100%;
+    height: 639px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(50, 50, 50, 0.50) 61.6%, rgba(0, 0, 0, 0.00) 100%), url('https://s3-alpha-sig.figma.com/img/0ed9/bb95/2f3694facdbef538840cf98345182ca6?Expires=1698019200&Signature=kUSzTlCnbZMeqFdMmQtSlcU3pZgVNnRNrPrOyFJ2eJgM9AABokJsY2Ut2Fst1ncKvUxdGnNbxDmNPTPOrt6bWbziG6wx33~yH3OY81FLQgFbgOhdp2g4EDfYUtavemmd47EDhcdC0F4bFnTuoqZmIBzoIEN5JvyPl6bIw-~zpBKkN2NC2HHLPgKc1T6Fm3lNhTOfPFB-YTiSzLMTDfbIkLYpXxn05uCu24xhabX6PnxXVGyri~bNSwDUBq~GnuxV-BbD2XxA~krJACN5jCnfYq33~jsxNYbEQoNjtTbwB3hhxtTUaunAuNEdsCh85-4c3k~CK8xwcSDyAYgwnf9ZdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'), lightgray 0px -110px / 100% 169.014% no-repeat;
+    background-size: 100%;
+}
+
+.customFurniture-main-text{
+    padding-top: 217px;
+    color: #F6F6F6;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.customFurniture-main-title{
+    color: #F6F6F6;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.customFurniture-main-black-title{
+    color: #F6F6F6;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.order-button{
+    width: 328px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #F6F6F6;
+    color: #715B4B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border: none;
+}
+
+.customFurniture-our-advantages__title{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.customFurniture-our-advantages__block{
+    width: 319px;
+}
+
+.customFurniture-our-advantages__block + .customFurniture-our-advantages__block{
+    margin-left: 193px;
+    margin-bottom: 78px;
+}
+
+.name-of-advantage{
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border-bottom: 1px solid black ;
+    padding-bottom: 10px;
+}
+
+.customFurniture-our-advantages__first-line{
+    display: flex;
+}
+
+.customFurniture-our-advantages__second-line{
+    display: flex;
+}
+
+.customFurniture-portfolio__title{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.customFurniture-portfolio__galery-main-photo{
+    display: flex;
+    justify-content: center;
+}
+
+.customFurniture-portfolio__galery-photos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 21px;
+    gap: 16px;
+}
+
+.gallery-arrows{
+    display: flex;
+    align-items: center;
+}
+
+.customFurniture-stages__title{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.customFurniture-stages__content-first-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.customFurniture-stages__content-second-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.customFurniture-stages__content-block{
+    border: 1px solid black;
+    width: 398px;
+}
+
+.customFurniture-stages__content-block > .title{
+    text-align: right;
+    margin-right: 42px;
+}
+
+.customFurniture-stages__content-block > .text{
+    text-align: left;
+    margin-left: 40px;
+    max-width: 232px;
+}
+
+.customFurniture-customers__title{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+.customFurniture-customers__reviews{
+    display: flex;
+}
+
+.customFurniture-customers__reviews-photos + .customFurniture-customers__reviews-photos{
+    margin-left: 14px;
+}
+
+.customFurniture-leads__title{
+    margin-top: 116px;
+    margin-bottom: 118px;
+}
+
+.customFurniture-leads__button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 199px;
+}
+
+.lead-button{
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #A1B29F;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border: none;
+}
