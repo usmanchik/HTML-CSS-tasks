@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пятерочка</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="images/on-page/logo.png" width="80" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#n2">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#n3">Категории</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#n4">Акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#n5">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="n1" class="container">
+        <div class="our-programs-panel">
+            <div class="our-programs__header">
+                Какие у нас есть продукты?
+            </div>
+            <div class="our-programs__inner">
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-1.png" alt="">
+                    </div>
+                    <div class="name-program-block">Плов</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-2.png" alt="">
+                    </div>
+                    <div class="name-program-block">Жаркое</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-3.png" alt="">
+                    </div>
+                    <div class="name-program-block">Лапша</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-4.png" alt="">
+                    </div>
+                    <div class="name-program-block">Суп</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-5.png" alt="">
+                    </div>
+                    <div class="name-program-block">Гречка</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+                <div class="program-block">
+                    <div class="program-img-block">
+                        <img src="./images/main-services/main-product-6.png" alt="">
+                    </div>
+                    <div class="name-program-block">Пюре</div>
+                    <div class="describe-program-block"></div>
+                    <div class="price-program-block"></div>
+                </div>
+            </div>
+            <div class="program-modal-window" id="program-modal">
+                <div class="program-modal_inner">
+                    <div class="program-content" id="program-content">
+                        
+                    </div>
+                    <div class="program-content__button">
+                        <button class="program-modal-button">Узнать подробнее</button>
+                    </div>
+                    <button id="program-close-modal" class="program-close-button">
+                        <img src="./images/icons/close-button.svg" alt="Закрыть">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="n4" class="container">
+        <div class="common-services-panel">
+            <div class="common-service__header">
+                <span class="colortext">Акции</span>
+            </div>
+            <div class="common-services__inner">
+                <div class="service-block">
+                    <div class="service-img-block">
+                        <img src="./images/services/service-1.png" width="128" height="128" alt="Профессиональная фотосъёмка">
+                    </div>
+                    <div class="name-service-block">CIF универсальный</div>
+                </div>
+                <div class="service-block">
+                    <div class="service-img-block">
+                        <img src="./images/services/service-2.png" width="128" height="128" alt="Профессиональный видеограф">
+                    </div>
+                    <div class="name-service-block">Макароны</div>
+                </div>
+                <div class="service-block">
+                    <div class="service-img-block">
+                        <img src="./images/services/service-3.png" width="128" height="128" alt="Фирменные дипломы кулинарного шоу">
+                    </div>
+                    <div class="name-service-block">Рестория кетчуп</div>
+                </div>
+                <div class="service-block">
+                    <div class="service-img-block">
+                        <img src="./images/services/service-4.png" width="128" height="128" alt="Испытание для взрослых «Перевёртыш»">
+                    </div>
+                    <div class="name-service-block">Зубочистки бамбуковые</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_content">Все права защищены</div>
+        <div class="footer_links-panel">
+            <a href="" class="link-item">
+                <img src="./images/icons/phone.svg" width="32" height="32" alt="link-img">
+            </a>
+            <a href="" class="footer_phone">
+                +7 (999) 999 99 99
+            </a>
+            <a href="https://vk.com/" class="link-item">
+                <img src="./images/icons/vk.svg" width="32" height="32" alt="link-img">
+            </a>
+            <a href="https://t.me/" class="link-item">
+                <img src="./images/icons/tg.svg" width="32" height="32" alt="link-img">
+            </a>
+            <a href="https://instagram.com/" class="link-item">
+                <img src="./images/icons/inst.svg" width="28" height="32" alt="link-img">
+            </a>
+            <a href="https://wa.me/" class="link-item">
+                <img src="./images/icons/wapp.svg" width="28" height="32" alt="link-img">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
