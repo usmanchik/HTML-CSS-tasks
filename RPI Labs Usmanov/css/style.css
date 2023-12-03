@@ -35,7 +35,7 @@ a{
     width: 87px;
 }
 
-/*---title---*/
+/*---TITLE---*/
 
 .title{
     color: #57463A;
@@ -46,7 +46,7 @@ a{
     line-height: 120%;
 }
 
-/* text */
+/*---TEXT---*/
 
 .text{
     color: #323232;
@@ -54,10 +54,10 @@ a{
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
 }
 
-/*---prototype-main---*/
+/*---PROTOTYPE---*/
 
 .prototype-main{
     display: flex;
@@ -113,8 +113,6 @@ a{
     max-width: 170px;
 }
 
-/*---prototype-whatisit---*/
-
 .prototype-whatisit{
     margin-top: 160px;
 }
@@ -129,8 +127,6 @@ a{
     text-align: center;
     border-bottom: 2px solid black;
 }
-
-/*---prototype-overtenyears---*/
 
 .prototype-overtenyears{
     display: flex;
@@ -159,15 +155,9 @@ a{
     outline: 1px solid black;
 }
 
-/* .prototype-overtenyears__item + .prototype-overtenyears__item{
-    border-left: 0;
-} */
-
 .prototype-overtenyears__itemscontent{
     text-align: center;
 }
-
-/* prototype-two-workers */
 
 .prototype-two-workers{
     display: flex;
@@ -222,8 +212,6 @@ a{
     cursor: pointer;
 }
 
-/*---prototype-video---*/
-
 .prototype-video{
     display: flex;
     justify-content: center;
@@ -232,8 +220,6 @@ a{
     margin-top: 100px;
     margin-bottom: 200px;
 }
-
-/*---prototype-our-services---*/
 
 .prototype-our-services__first-item{
     display: flex;
@@ -291,8 +277,6 @@ a{
     cursor: pointer;
 }
 
-/*---prototype-garanty---*/
-
 .prototype-garanty{
     border: 7px solid #A1B29F;
     margin-left: 140px;
@@ -330,7 +314,7 @@ a{
 }
 
 
-/* footer */
+/*---FOOTER---*/
 
 .footer-panel{
     background-color: #715B4B;
@@ -366,7 +350,7 @@ a{
     height: 52px;
 }
 
-/* aboutUs */
+/*---ABOUT US---*/
 
 .aboutUs-main-title{
     text-align: center;  
@@ -497,7 +481,7 @@ a{
     cursor: pointer;
 }
 
-/* customFurniture */
+/*---CUSTOM FURNITURE---*/
 
 .customFurniture-main-window{
     width: 100%;
@@ -679,7 +663,7 @@ a{
     cursor: pointer;
 }
 
-/* masterKlass */
+/*---MASTER KLASS---*/
 
 .masterKlass-main-window{
     width: 100%;
@@ -719,8 +703,6 @@ a{
     margin-bottom: 100px;
 }
 
-/* начало */
-
 .masterKlass-our-works__content-row{
     display: flex;
 }
@@ -733,8 +715,6 @@ a{
 .masterKlass-our-works__block + .masterKlass-our-works__block{
     margin-left: 40px;
 }
-
-/* конец */
 
 .masterKlass-our-works__button{
     display: flex;
@@ -753,7 +733,7 @@ a{
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
     border: none;
 }
 
@@ -905,4 +885,229 @@ a{
 .masterKlass-tutorial__photo{
     width: 469px;
     height: 475px;
+}
+
+
+/*---ADAPTIVE---*/
+
+@media (max-width: 1305px) {
+    .masterKlass-materials__content,
+    .masterKlass-our-works__content-row,
+    .masterKlass-tableBusiness__content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1250px) {
+    .customFurniture-our-advantages__first-line,
+    .customFurniture-our-advantages__second-line{
+        flex-direction: column;
+    }
+    .customFurniture-our-advantages__block + .customFurniture-our-advantages__block{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .customFurniture-customers__reviews{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    .masterKlass-tutorial__photo{
+        display: none;
+    }
+    .aboutUs-main-window-photo,
+    .aboutUs-main-window-photo > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1170px) {
+    .prototype-main__content-block{
+        margin-top: 20px;
+    }
+    .prototype-main__social-network {
+        margin-left: 20px;
+    }
+    .prototype-main__title {
+        font-size: 32px;
+    }
+    .prototype-main__photo {
+        max-width: 100%;
+        max-height: auto;
+    }
+    .prototype-our-services__button{
+        margin-bottom: 20px;
+    }
+    .aboutUs-smi__reviews{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1090px) {
+    .footer-content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1050px) {
+    .prototype-main__content-block {
+        order: 1;
+    }
+    .prototype-main__photo {
+        order: 2;
+    }
+    .prototype-main {
+        flex-direction: column;
+    }
+    .prototype-main__button {
+        margin-top: 10px;
+    }
+    .prototype-main__social-network {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .prototype-whatisit__list {
+        flex-direction: column;
+    }
+    .prototype-two-workers{
+        flex-direction: column;
+    }
+    .prototype-our-services__first-item,  .prototype-our-services__second-item{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 910px) {
+    .customFurniture-portfolio__galery-main-photo > img{
+        width: 100%;
+        height: auto;
+    }
+    .customFurniture-portfolio__galery-photos{
+        display: none;
+    }
+}
+
+@media (max-width: 825px) {
+    .masterKlass-second-chance__title > .title{
+        padding: 0;
+        font-size: 32px;
+        padding-bottom: 210px;
+    }
+    .masterKlass-materials__block > img{
+        width: 100%;
+        height: auto;
+    }
+    .aboutUs-founder__photo{
+        margin-bottom: 20px;
+    }
+    .aboutUs-advantages__info-block + .aboutUs-advantages__info-block{
+        margin-left: 0;
+    }
+    .aboutUs-founder,
+    .aboutUs-advantages{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 825px) {
+    .prototype-video > img,
+    .prototype-our-services__photo > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .prototype-garanty {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .prototype-our-services{
+        margin-bottom: 20px;
+    }
+    .prototype-garanty__text{
+        margin: 10px 30px;
+    }
+}
+
+@media (max-width: 745px) {
+    .prototype-two-workers__photo, .prototype-two-workers__photo > img{
+        width: 100%;
+        height: auto;
+    }
+    .aboutUs-founder__info{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .masterKlass-tableBusiness__content-block > img{
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .masterKlass-main-window__title{
+        padding-top: 50px;
+    }
+    .customFurniture-stages__content-first-line,
+    .customFurniture-stages__content-second-line{
+        flex-direction: column;
+    }
+    .customFurniture-main-text{
+        padding-top: 97px;
+    }
+}
+
+@media (max-width: 545px) {
+    .footer-content{
+        max-height: 100%;
+        padding-bottom: 10px;
+    }
+    .footer-content a{
+        padding-bottom: 10px;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutUs-founder__photo,
+    .aboutUs-founder__photo > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 440px) {
+    .customFurniture-stages__content-block,
+    .customFurniture-our-advantages__block{
+        width: auto;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .aboutUs-smi__reviews{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 410px) {
+    .watch-masterKlass{
+        width: 220px;
+    }
+}
+
+@media (max-width: 400px) {
+    .prototype-whatisit__item{
+        width: 100%;
+    }
+    .order-button{
+        width: 152px;
+    }
 }
